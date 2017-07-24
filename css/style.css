@@ -239,16 +239,6 @@ body {
   border-top: 1px solid #000;
 }
 
-#testimonials .name {
-  padding:0;margin:0;display:block;/* not really needed */
-  content: "";
-  width:50%;
-  height:1px;
-  background-color:white;
-  position: absolute;
-  right:0;
-  top:-1px;
-}
 
 #testimonials .occupation {
   text-align: right;
