@@ -94,17 +94,17 @@ body {
 }
 
 .welcome_title, .our_services_title, .portfolio_title, .testimonials_title {
-    font-family: 'dinpro_bold';
-    color: #000;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    background: url('../images/title-bg.png') center;
-    background-repeat: no-repeat;
-    padding-top: 40px;
-    min-height: 132px;
-    font-size: 34px;
+  font-family: 'dinpro_bold';
+  color: #000;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  background: url('../images/title-bg.png') center;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  min-height: 132px;
+  font-size: 34px;
 }
 
 .container-fluid {
@@ -115,9 +115,17 @@ body {
   background: url('../images/title-banner-bg.png') no-repeat;
   background-position: center;
   min-height: 290px;
-  max-width: 290px;
-  background-size: 100%;
+  background-size: 290px;
+  max-width: 470px;
   margin: 60px auto;
+  color: #4e4e4e;
+}
+
+.carousel-caption h3 {
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 30px;
+  font-family: 'dinpro_bold';
 }
 
 #welcome {
@@ -202,12 +210,12 @@ body {
 }
 
 #portfolio .row{
-  max-width: 700px;
+  max-width: 660px;
   margin:0 auto;
 }
 
 #carousel-portfolio {
-  max-width: 600px;
+  max-width: 775px;
   margin: 0 auto;
   float: none;
 }
@@ -397,8 +405,25 @@ body {
   border: 0px;
   border-radius: 0px;
   background-color: transparent;
+  margin: 0px;
 }
-
 
 /* End portfolio carousel */
 
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 220px;
+  width: 220px;
+  opacity: 0;
+  transition: .5s ease;
+  background: url('../images/portfolio-hover.png');
+  cursor: pointer;
+  margin: 0 auto;
+}
