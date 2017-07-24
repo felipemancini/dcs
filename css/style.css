@@ -45,6 +45,12 @@ body {
 .navbar {
   margin-bottom: 0px;
 }
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent; 
+}
+
+
 
 .navbar-nav {
   width: 100%;
@@ -88,10 +94,11 @@ body {
   background-color: transparent;
 }
 
-#myCarousel .carousel {
-  border-top: 8px solid #868686;
-  border-bottom: 8px solid #868686;
+#myCarousel .carousel-inner {
+  border-top: 5px solid #868686;
+  border-bottom: 5px solid #868686;
 }
+
 
 .welcome_title, .our_services_title, .portfolio_title, .testimonials_title {
   font-family: 'dinpro_bold';
@@ -281,7 +288,7 @@ body {
   float: left;
   padding-top: 50px;
   padding-bottom: 50px;
-  border-top: 5px solid #eb5e21;
+  border-top: 6px solid #eb5e21;
 }
 
 .footer .container {
@@ -410,9 +417,6 @@ body {
 
 /* End portfolio carousel */
 
-
-
-
 .overlay {
   position: absolute;
   top: 0;
@@ -426,4 +430,26 @@ body {
   background: url('../images/portfolio-hover.png');
   cursor: pointer;
   margin: 0 auto;
+}
+
+
+/* menu */
+
+@media screen and (max-width: 600px) {
+
+  .navbar-nav {
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 15px;
+  }
+
+  .navbar-nav li {
+    display: list-item;
+  }
+
+  .carousel-caption {
+    display: none;
+  }
+      
 }
