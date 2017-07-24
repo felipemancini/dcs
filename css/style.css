@@ -1,0 +1,341 @@
+
+@font-face {     
+    font-family: 'dinpro_regular';  
+    src: url('../fonts/dinpro-regular.eot');    
+    src: url('../fonts/dinpro-regular.eot?#iefix') format('embedded-opentype'),        
+        url('../fonts/dinpro-regular.woff') format('woff'),         
+        url('../fonts/dinpro-regular.ttf') format('truetype');    
+    font-weight: normal;    
+    font-style: normal;
+}
+
+@font-face {     
+    font-family: 'dinpro_black';  
+    src: url('../fonts/dinpro-black.eot');    
+    src: url('../fonts/dinpro-black.eot?#iefix') format('embedded-opentype'),        
+        url('../fonts/dinpro-black.woff') format('woff'),         
+        url('../fonts/dinpro-black.ttf') format('truetype');    
+    font-weight: normal;    
+    font-style: normal;
+}
+
+@font-face {     
+    font-family: 'dinpro_bold';  
+    src: url('../fonts/dinpro-bold.eot');    
+    src: url('../fonts/dinpro-bold.eot?#iefix') format('embedded-opentype'),        
+        url('../fonts/dinpro-bold.woff') format('woff'),         
+        url('../fonts/dinpro-bold.ttf') format('truetype');    
+    font-weight: normal;    
+    font-style: normal;
+}
+
+body {
+  font-family: 'dinpro_regular';
+}
+
+.logo {
+  font-size: 0;
+  margin: 0 auto;
+  max-width: 165px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+}
+
+.navbar-nav li a{
+  color:#424242;
+  font-family: 'dinpro_bold';
+}
+
+.dropdown-menu {
+  background: #e86d2c;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.dropdown-menu li {
+    display: block;
+    opacity: 0.8;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+.dropdown-menu li:last-child{
+  border-bottom: 0;
+}
+
+.dropdown-menu>li>a {
+  color: #fff;
+  background-color: transparent;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  background-color: transparent;
+}
+
+#myCarousel .carousel {
+  border-top: 8px solid #868686;
+  border-bottom: 8px solid #868686;
+}
+
+.welcome_title, .our_services_title, .portfolio_title, .testimonials_title {
+    font-family: 'dinpro_bold';
+    color: #000;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    background: url('../images/title-bg.png') center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    min-height: 132px;
+    font-size: 34px;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+#welcome {
+  background: url('../images/welcome-bg.jpg');
+  min-height: 372px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#welcome p {
+  max-width: 700px;
+  margin:0 auto;
+  text-align: justify;
+}
+
+#our-services {
+  min-height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#our-services h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'dinpro_bold';
+}
+
+#our-services p {
+  text-align: justify;
+}
+
+#our-services .btn-primary {
+  text-align: center;
+  background-color:#fff;
+  color: #3a3a3a;
+  border-color: #3a3a3a;
+  text-transform: uppercase;
+}
+
+#our-services .btn-primary:hover {
+  color: #eb5e21;
+  border-color: #eb5e21;
+}
+
+#facades {
+  background: url("../images/facades-icon.png") left;
+  background-repeat: no-repeat;
+  min-height: 47px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#rockworks {
+  background: url("../images/rockworks-icon.png") left;
+  background-repeat: no-repeat;
+  min-height: 47px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#interior-finishes {
+  background: url("../images/interior-finishes-icon.png") left;
+  background-repeat: no-repeat;
+  min-height: 47px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#paving {
+  background: url("../images/paving-icon.png") left;
+  background-repeat: no-repeat;
+  min-height: 47px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#portfolio {
+  background: url('../images/portfolio-bg.jpg');
+  min-height: 372px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#portfolio .row{
+  max-width: 700px;
+  margin:0 auto;
+}
+
+#carousel-portfolio {
+  max-width: 600px;
+  margin: 0 auto;
+  float: none;
+}
+
+#testimonials {
+  min-height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 765px;
+  margin: 0 auto;
+}
+
+#testimonials .col-lg-4 {
+  padding: 30px;
+}
+
+#testimonials h2 {
+  font-size: 0;
+  display: block;
+  text-align: center;
+}
+
+#testimonials p {
+  text-align: justify;
+  padding-top: 15px;
+}
+
+#testimonials img {
+  max-width: 100%;
+  height: auto;
+}
+
+#testimonials .name {
+  font-family: 'dinpro_bold';
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+  border-top: 1px solid #000;
+}
+
+#testimonials .name {
+  padding:0;margin:0;display:block;/* not really needed */
+  content: "";
+  width:50%;
+  height:1px;
+  background-color:white;
+  position: absolute;
+  right:0;
+  top:-1px;
+}
+
+#testimonials .occupation {
+  text-align: right;
+  padding: 0px;
+}
+
+.read-more {
+  text-align: center !important;
+  padding-top: 15px;
+}
+
+
+.footer {
+  background: url('../images/footer-bg.jpg');
+  min-height: 175px;
+  width: 100%;
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 5px solid #eb5e21;
+}
+
+
+
+
+
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+
+#carousel-portfolio .col-md-4, #carousel-portfolio .thumbnail {
+  padding: 0px;
+  border: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* End carousel */
+
