@@ -323,6 +323,7 @@ body {
 .footer .footer_right_col {
   float: right;
   color: #fff;
+  padding-top: 33px;
 }
 
 .footer .footer_right_col p {
