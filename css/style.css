@@ -451,5 +451,19 @@ body {
   .carousel-caption {
     display: none;
   }
+
+  #portfolio .row {
+    height: 220px;
+  }
       
 }
+
+/* fix text slider IE */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+ 
+    .carousel-caption {
+      left: 33%;
+    }
+  
+}
+
